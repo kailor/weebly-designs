@@ -1,0 +1,600 @@
+
+
+/* Resets
+--------------------------------------------------------------------------------*/
+
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, 
+fieldset, input {
+	margin: 0;
+	padding: 0;
+}
+
+a img {
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* General Styling and Structure
+--------------------------------------------------------------------------------*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:#5a5a5a;
+	background: url(main-bg.jpg) repeat;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.block {
+	background:#ffffff;
+	border-radius:5px;
+	-webkit-box-shadow:  0px 0px 3px 0px rgba(0, 0, 0, 0.23);
+    box-shadow:  0px 0px 3px 0px rgba(0, 0, 0, 0.23);
+	margin-bottom:35px;
+}
+
+#header-wrap,
+border-radius:5px;
+#banner-wrap,
+#nav-wrap,
+#main-wrap,
+#footer-wrap
+{
+        width:100%;
+}
+
+
+h3 {
+	font-size: 18px;
+	color:#1c1c1c;
+	font-family: 'Rosario', sans-serif;
+}
+
+a {
+	color:#007ee8 ;
+}
+
+a:hover {
+	color:#0057a1 ;
+}
+
+h2 {
+	font-size: 24px;
+	padding: .5em 0 .2em 0;
+	line-height: 1.2;
+	font-family: 'Rosario', sans-serif;
+	font-weight: bold;
+}
+
+p {
+	line-height: 1.5;
+	padding: .5em 0;
+}
+
+div#content {min-height:400px;}
+
+/* Header
+--------------------------------------------------------------------------------*/
+
+#header-wrap .container {
+	padding:23px 0px;
+	background: url(header.png);
+	
+}
+
+#logo,
+#logo a {
+    font-size:30px;
+	color:#535353;
+	font-family: 'Rosario', sans-serif;
+}
+
+#header {
+	border-collapse: collapse;
+	border-spacing: 0;
+        width:100%;
+}
+
+#header td {
+	vertical-align: middle;
+	text-align: left;
+}
+
+
+#header-right table {
+	float: right;
+	width: 1px;
+	border-collapse:collapse;
+}
+
+#header-right td {
+	padding: 0;
+}
+
+/* Header: Phone Number
+--------------------------------------------------------------------------------*/
+
+#header-right .phone-number {
+	text-align:right;
+}
+
+#header-right .phone-number .wsite-text {
+	display: right;
+	white-space: nowrap;
+	position: relative;
+	right: 50px;
+}
+
+/* Header: Social Links
+--------------------------------------------------------------------------------*/
+#header-wrap .social{
+	clear:right;
+	float:right;
+	margin:7px 0;
+	position: relative;
+	right: 30px;
+}
+
+.header-right .wsite-social {
+	vertical-align: middle;
+}
+
+.wsite-social-item {
+	width: 28px;
+	height: 30px;
+	margin: 1px 0 0 4px;
+}
+
+.wsite-social-rss {
+	background: url(social-profiles.png)no-repeat -124px 0px;
+}
+
+.wsite-social-linkedin {
+	background: url(social-profiles.png) no-repeat -60px 0px;
+}
+
+.wsite-social-facebook {
+	background: url(social-profiles.png) no-repeat 0px 0px;
+}
+
+.wsite-social-twitter {
+	background: url(social-profiles.png) no-repeat -32px 0px;
+}
+
+.wsite-social-mail {
+	background: url(social-profiles.png) no-repeat -93px 0px;
+}
+
+.wsite-social-pinterest {
+	background: url(social-profiles.png) no-repeat -215px 0px;
+}
+
+.wsite-social-youtube {
+	background: url(social-profiles.png) no-repeat -308px 0px;
+}
+
+.wsite-social-plus {
+	background: url(social-profiles.png) no-repeat -186px 0px;
+}
+
+.wsite-social-flickr {
+	background: url(social-profiles.png) no-repeat -155px 0px;
+}
+
+.wsite-social-vimeo {
+	background: url(social-profiles.png) no-repeat -245px 0px;
+}
+
+.wsite-social-yahoo {
+	background: url(social-profiles.png) no-repeat -275px 0px;
+}
+
+
+/* Header: Search Box
+--------------------------------------------------------------------------------*/
+
+#header-right .wsite-search {
+	float:right;
+}
+
+#header-right .wsite-search {
+	margin: 16px 0px 0px;
+	vertical-align: middle;
+	position: relative;
+    right: 40px;
+}
+
+#header-right .wsite-search-input {
+	width: 166px;
+	height: 25px;
+	border: none;
+	font-family: 'Rosario', sans-serif;
+	color: #414141;
+	font-size:13px ;
+	background: url(search-text.png) no-repeat top left;
+	float:left;
+}
+
+#header-right .wsite-search-button {
+	position: relative;
+	width: 33px;
+	height: 33px;
+	background: url(search-button.png) no-repeat;
+}
+
+/* Navigation
+--------------------------------------------------------------------------------*/
+
+#nav-wrap .container {
+	clear: both;
+	overflow: hidden;
+	position: relative;
+}
+
+#nav-wrap .container {
+	background:url(nav_bar.png) repeat-x top;
+	height:42px;
+}
+
+#nav-wrap .container ul {
+	list-style: none;
+}
+
+#nav-wrap .container ul li {
+	list-style: none;
+	float: left;
+	padding-right:2px;
+}
+
+#nav-wrap .container ul > li:first-child a,
+#nav-wrap .container ul > li:first-child a:hover,
+#nav-wrap .container ul span:first-child li a,
+#nav-wrap .container ul span:first-child li a:hover{
+	border-radius:5px 0px 0px 5px;
+}
+
+#nav-wrap .container ul li a {
+	float: left;
+	display: block;
+	font-family: 'Rosario', sans-serif;
+	color: #ffffff;
+	padding: 0px 30px;
+	border: 0;
+	outline: 0;
+	list-style-type: none;
+	font-size: 14px;
+	line-height:45px;
+	text-shadow: 0px -1px 0px #333333;
+}
+
+#nav-wrap .container ul li a:hover {
+	color: #f6ed03;
+	background:none;
+	text-shadow:none;
+}
+
+
+/* Navigation Submenu's
+--------------------------------------------------------------------------------*/
+
+#wsite-menus .wsite-menu {
+	border-radius:5px 5px 5px 5px;
+	background: url(sub_menu.jpg) repeat;
+	-webkit-box-shadow: inset 0px 0px 0px rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0px 0px 0px rgba(255, 255, 255, 0.15);
+}
+
+#wsite-menus .wsite-menu li {
+	background:url(sub_menu.jpg) repeat-x bottom;
+}
+
+#wsite-menus .wsite-menu li:last-child {
+	background:none;
+}
+
+#wsite-menus .wsite-menu li a {
+	font-family: 'Rosario', sans-serif;
+	padding: 8px 10px;
+	color: #ffffff;
+	background:none;
+	border: 0;
+}
+
+#wsite-menus .wsite-menu li a:hover {
+	color: #57b2ff;
+	background:none;
+	text-shadow:none;
+}
+
+/* Page type: Tall header
+--------------------------------------------------------------------------------*/
+
+.tall-header-page .wsite-header {
+	width: 960px;
+	height: 287px;
+	background: url(banner-tall.jpg) no-repeat;
+	border-radius:5px;
+}
+
+/* Page type: Short header
+--------------------------------------------------------------------------------*/
+
+.short-header-page .wsite-header {
+	width: 960px;
+	height: 144px;
+	background: url(banner-short.jpg) no-repeat;
+	border-radius:5px;
+}
+
+/* Page type: No header
+--------------------------------------------------------------------------------*/
+
+.no-header-page .wsite-header  {
+        display:none;
+}
+
+/* Page type: Landing page
+--------------------------------------------------------------------------------*/
+
+.landing-page #banner {
+	background: none;
+	padding: 0;
+}
+
+#bannerleft {
+	float: right;
+	width: 552px;
+	height: 399px;
+	border-radius:0px 5px 5px 0px;
+}
+
+.landing-page .wsite-header {
+	width: 473px;
+	height: 297px;
+	background: url(banner-landing.jpg) no-repeat;
+	margin: 51px 0px 0px 28px;
+	position:relative;
+	float:left;
+}
+
+.corner {
+	background-image:url(corners.png);
+	width:4px;
+	height:4px;
+	position:absolute;
+}
+
+.tl {
+	top:0;
+	left:0;
+	background-position:top left;
+}
+
+.tr {
+	top:0;
+	right:0;
+	background-position:top right;
+}
+
+.br {
+	bottom:0;
+	right:0;
+	background-position:bottom right;
+}
+
+.bl {
+	bottom:0;
+	left:0;
+	background-position:bottom left;
+}
+
+.landing-banner-outer {
+	display: table;
+	#position: relative;
+	overflow: hidden;
+}
+
+.landing-banner-mid {
+	#position: absolute;
+	#top: 50%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.landing-banner-inner {
+	#position: relative;
+	#top: -50%;
+}
+
+#bannerright {
+	float: left;
+	width: 358px;
+	height: 399px;
+	padding: 0 0px 0px 50px;
+}
+
+#bannerright h2 {
+	font-size: 40px;
+	font-family: 'Rosario', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	line-height: 40px;
+}
+
+#bannerright p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #373737;
+	font-size: 15px;
+	
+padding: 20px 0px;
+	line-height: 140%;
+}
+
+#bannerright .wsite-button {
+	margin: 0px;
+}
+
+/* Main Content
+--------------------------------------------------------------------------------*/
+
+#main-wrap .container {
+	padding:30px 40px;
+	width:880px;
+}
+
+blockquote {
+	font-style:italic;
+	border-left:4px solid #ddd;
+	margin:10px 0 10px 0;
+	padding-left:20px;
+	line-height:1.5;
+	color:#888;
+}
+
+#main-wrap .container form .wsite-button {
+	margin-top:20px;
+}
+
+/* Footer
+--------------------------------------------------------------------------------*/
+
+
+#footer-wrap .container {
+	padding:30px 40px;
+	width:880px;
+	text-align:right;
+	background: url(footer.jpg) no-repeat;
+}
+
+#footer-wrap .container h2 {
+	font-size: 18px;
+	color:#1c1c1c;
+	margin-bottom:10px;
+}
+
+#footer-wrap .wsite-form-container {
+	text-align:left;
+	margin-top:0 !important;
+}
+
+/* Form Customization
+--------------------------------------------------------------------------------*/
+
+.wsite-form-label {
+	display: inline-block;
+	padding: 10px 0px 3px;
+	font-weight:normal;
+}
+
+.wsite-form-input, .wsite-search-element-input {
+	font-family: 'Rosario', sans-serif;
+	font-size: 13px;
+	color: #535353;
+	background: #ffffff;
+	border:1px solid #bababa;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 1px 1px 3px 1px rgba(100, 100, 100, 0.1);
+    box-shadow: inset 1px 1px 3px 1px rgba(100, 100, 100, 0.1);
+}
+
+/* Buttons
+--------------------------------------------------------------------------------*/
+
+/* Small structure & regular style */
+
+.wsite-button {
+	height: 38px;
+	display: inline-block;
+	padding: 0px 21px 0px 0px;
+	background: url(button.png) no-repeat 100% -115px;
+}
+
+.wsite-button:hover {
+	background-position: 100% -153px;
+}
+
+.wsite-button:active {
+	background-position: 100% -191px;
+}
+
+.wsite-button-inner {
+	color: #fff !important;
+	font-family: 'Rosario', sans-serif;
+        height: 38px;
+	line-height: 34px;
+	display: block;
+	font-size: 15px;
+	font-weight: Bold;
+	text-decoration: none;
+	padding: 0px 20px 0px 41px;
+	background: url(button.png) no-repeat 0px -1px;
+	text-shadow: 0px -1px 0px #333333;
+}
+
+.wsite-button:hover .wsite-button-inner {
+	background-position: 0px -39px;
+}
+
+.wsite-button:active .wsite-button-inner {
+	background-position: 0px -77px;
+}
+
+/* Large structure & regular style  */
+
+.wsite-button-large {
+	color: #fff !important;
+	height: 45px;
+	background: url(button_large.png) no-repeat 100% -136px;
+	padding: 0px 21px 0px 0px;
+}
+
+.wsite-button-large:hover {
+	background-position: 100% -181px;
+}
+
+.wsite-button-large:active {
+	background-position: 100% -226px;
+}
+
+.wsite-button-large .wsite-button-inner {
+	height: 45px;
+	line-height: 41px;
+	padding: 0px 20px 0px 41px;
+	background: url(button_large.png) no-repeat 0px -1px;
+}
+
+.wsite-button-large:hover .wsite-button-inner {
+	background-position: 0px -46px;
+}
+
+.wsite-button-large:active .wsite-button-inner {
+	background-position: 0px -91px;
+}
+
+
+/* Highlighted styles */
+
+.wsite-button-highlight {
+	background-image: url(button_highlight.png);
+}
+
+.wsite-button-highlight .wsite-button-inner {
+	background-image: url(button_highlight.png);
+}
+
+.wsite-button-large.wsite-button-highlight {
+	background-image: url(button_large_highlight.png);
+}
+
+.wsite-button-large.wsite-button-highlight .wsite-button-inner {
+	background-image: url(button_large_highlight.png);
+}
